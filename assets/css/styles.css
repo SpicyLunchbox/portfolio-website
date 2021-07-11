@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 187; /*Purple 250 - Green 142 - Blue 230 or 187 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -506,35 +506,35 @@ img{
 }
 
 .skills__css{
-    width: 90%;
+    width: 75%;
 }
 
 .skills__javascript{
-    width: 90%;
+    width: 80%;
 }
 
 .skills__react{
-    width: 90%;
+    width: 80%;
 }
 
 .skills__redux{
-    width: 90%;
+    width: 70%;
 }
 
 .skills__node{
-    width: 90%;
+    width: 80%;
 }
 
 .skills__sql{
-    width: 90%;
+    width: 80%;
 }
 
 .skills__relational{
-    width: 90%;
+    width: 70%;
 }
 
 .skills__token{
-    width: 90%;
+    width: 80%;
 }
 
 .skills__close .skills__list{
