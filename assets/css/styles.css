@@ -502,39 +502,39 @@ img{
 }
 
 .skills__html{
-    width: 90%;
+    width: 100%;
 }
 
 .skills__css{
-    width: 75%;
+    width: 100%;
 }
 
 .skills__javascript{
-    width: 80%;
+    width: 100%;
 }
 
 .skills__react{
-    width: 80%;
+    width: 100%;
 }
 
 .skills__redux{
-    width: 70%;
+    width: 100%;
 }
 
 .skills__node{
-    width: 80%;
+    width: 100%;
 }
 
 .skills__sql{
-    width: 80%;
+    width: 100%;
 }
 
 .skills__relational{
-    width: 70%;
+    width: 100%;
 }
 
 .skills__token{
-    width: 80%;
+    width: 100%;
 }
 
 .skills__close .skills__list{
@@ -806,7 +806,10 @@ img{
 .project__img{
     max-width: 232px;
     justify-self: center;
+    opacity: 0;
 }
+
+
 
 /*==================== TESTIMONIAL ====================*/
 .testimonial__data,
@@ -1315,4 +1318,11 @@ img{
     .contact__inputs{
         grid-template-columns: repeat(2, 1fr);
     }
+}
+
+#button{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    font: var(--body-font);
+    border: none;
 }
